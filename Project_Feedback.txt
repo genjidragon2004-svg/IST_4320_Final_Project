@@ -1,0 +1,11 @@
+The purpose of my app was to create a simple Python desktop application using tkinter. My app is called Student Preference Tracker. It allows a user to enter their name, age, favorite programming language, and a short comment. When the user clicks the Save Information button, the app saves the information into a local SQLite database.
+
+I attempted to create an app that met all four final project requirements. For the app UI, I used labels, entry boxes, a combobox/dropdown menu, buttons, popup messages, and a menu bar. For the custom function requirement, I created functions to set up the database, save data, clear the form, view saved records, and show an about message. For the input requirement, the app takes information from the user and saves it into the SQLite database. I also hosted the project publicly on GitHub.
+
+What worked well was the tkinter window, the form fields, the dropdown menu, the buttons, the menu bar, the popup confirmation messages, and the database saving. I tested the app by entering sample information, and it successfully saved the data. I also added a View Records feature so saved entries can be displayed in the app.
+
+One thing that did not work at first was running the Python file from the VS Code terminal. At first, the command using python did not work because Python was not recognized, so I used py final_project_app.py instead. I also learned that the database file cannot be opened like a normal text file in VS Code because it is a database/binary file. Other than that, the main app features worked.
+
+In the future, I would like to improve the app by adding update and delete options for saved records. I would also like to make the interface look more modern and maybe add a search feature so users can find saved entries more easily.
+
+Overall, I learned how to create a basic Python app using tkinter, how to use custom functions, how to collect and validate user input, how to save data into a SQLite database, and how to upload a project to GitHub. I also learned more about troubleshooting errors in VS Code and testing an app before submitting it.
